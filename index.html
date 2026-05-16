@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literal Apps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Segoe UI Black';
+            src: url('segoe-ui-black.ttf') format('truetype');
+            font-weight: 900;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: #fff;
+            font-family: 'Scope One', Georgia, serif;
+            line-height: 1.6;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 64px 24px 80px;
+        }
+
+        .logo {
+            display: block;
+            width: 200px;
+            margin-bottom: 48px;
+            filter: invert(1);
+        }
+
+        .intro {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 80px;
+            line-height: 2;
+        }
+
+        .app {
+            margin-bottom: 72px;
+        }
+
+        .app-name {
+            font-family: 'Segoe UI Black', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 900;
+            letter-spacing: 0.01em;
+            margin-bottom: 4px;
+        }
+
+        .app-sub {
+            font-size: 0.85rem;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 24px;
+        }
+
+        .app-quote {
+            font-size: 0.9rem;
+            color: #bbb;
+            margin-bottom: 20px;
+            padding-left: 16px;
+            border-left: 1px solid #222;
+            line-height: 1.9;
+        }
+
+        .app-desc {
+            font-size: 0.85rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            border-bottom: 1px solid #333;
+            padding-bottom: 2px;
+            transition: border-color 0.15s;
+        }
+
+        .links a:hover {
+            border-color: #fff;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #111;
+            margin-bottom: 72px;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.75rem;
+            color: #333;
+        }
+
+        footer a {
+            color: #444;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <img class="logo" src="literalapps_logo.png" alt="Literal Apps" />
+
+    <p class="intro">
+        Minimal Android apps for people who want less.<br>
+        No tracking. No cloud accounts. Just text.
+    </p>
+
+    <div class="app">
+        <div class="app-name">Literal Launcher</div>
+        <div class="app-sub">Life within five meters.</div>
+        <div class="app-quote">
+            Humans can hold roughly 10 things in working memory.<br>
+            Most launchers ignore this.<br>
+            <br>
+            Icons make your eyes wander. Text makes you read and decide.<br>
+            Text forces a moment of intention. That's a feature, not a limitation.
+        </div>
+        <div class="app-desc">10 fixed slots. No icons. No search. Just the apps you actually use.</div>
+        <div class="links">
+            <a href="https://github.com/256x/launcher/releases/latest">GitHub</a>
+            <a href="https://play.google.com/store/apps/details?id=fumi.day.literallauncher">Play Store</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="app">
+        <div class="app-name">Literal Memo</div>
+        <div class="app-sub">Write. Throw. Search.</div>
+        <div class="app-quote">
+            Write anything. Throw it in. Search when needed. Delete when you don't.<br>
+            <br>
+            No folders. No tags. No archive. No restore.<br>
+            Just text.
+        </div>
+        <div class="app-desc">Notes stored as plain files. Optional Git sync to a repo you control.</div>
+        <div class="links">
+            <a href="https://github.com/256x/memo/releases/latest">GitHub</a>
+            <a href="https://play.google.com/store/apps/details?id=fumi.day.literalmemo">Play Store</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="app">
+        <div class="app-name">Literal Agenda</div>
+        <div class="app-sub">Your schedule, not theirs.</div>
+        <div class="app-quote">
+            Work calendars are for work.<br>
+            Your private life deserves something quieter.<br>
+            <br>
+            No shared calendars. No meeting invites. No integrations.<br>
+            Just your events, stored as plain text, synced through a repo you control.
+        </div>
+        <div class="app-desc">Events as plain text files. Git sync to a private repo. No Google.</div>
+        <div class="links">
+            <a href="https://github.com/256x/agenda/releases/latest">GitHub</a>
+            <a href="https://play.google.com/store/apps/details?id=fumi.day.literalagenda">Play Store</a>
+        </div>
+    </div>
+
+    <footer>
+        <a href="./privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp; MIT &nbsp;·&nbsp; <a href="mailto:literalapps@proton.me">256x</a>
+    </footer>
+
+</body>
+</html>
